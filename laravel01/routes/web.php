@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\CadastroPessoaController;
+use App\Http\Controllers\FormularioPessoaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::pattern('etapa1', '|etapa1');
-Route::get('{etapa1}', [CadastroPessoaController::class, 'etapa1']);
-Route::get('etapa2', [CadastroPessoaController::class, 'etapa2']);
-Route::get('etapa3', [CadastroPessoaController::class, 'etapa3']);
-Route::get('etapa4', [CadastroPessoaController::class, 'etapa4']);
+Route::get('{etapa1}', [FormularioPessoaController::class, 'etapa1']);
+Route::get('etapa2', [FormularioPessoaController::class, 'etapa2']);
+Route::get('etapa3', [FormularioPessoaController::class, 'etapa3']);
+Route::get('etapa4', [FormularioPessoaController::class, 'etapa4']);
 
 Route::get('fim', function(){
     return view('end');

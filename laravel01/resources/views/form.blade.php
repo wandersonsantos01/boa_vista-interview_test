@@ -5,6 +5,7 @@
     <title>{{ $title }}</title>
 
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/general.css') }}">
 </head>
 <body>
 
@@ -18,6 +19,11 @@
             </div>
             <input type="hidden" name="next_step" id="next_step" value="{{ $nextStep }}">
             <button type="submit" class="btn btn-primary">{{ $buttonLabel }}</button>
+            <div class="row">
+                <div class="col-12" id="loader">
+                    <div class="loader mx-auto d-block"></div>
+                </div>
+            </div>
         </form>
     </div>
 </div>
