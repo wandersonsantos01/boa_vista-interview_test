@@ -1,0 +1,40 @@
+version: '3.7'
+networks:
+    overlay:
+        driver: bridge
+services:
+    laravel01:
+        build:
+            context: ./Dockerfiles
+            dockerfile: Dockerfile-Laravel01
+        image: wandersonsantos01/it_boavista_laravel
+        volumes:
+            - ./laravel01/:/var/www/html
+        environment:
+            - DB_HOST=mysql
+            - DB_USERNAME=root
+            - DB_DATABASE=it_boavista
+            - DB_PASSWORD=password
+        networks:
+            - overlay
+        expose:
+            - 80
+        ports:
+            - 8080:80
+    mysql:
+        container_name: mysql
+        build:
+            context: ./Dockerfiles
+            dockerfile: Dockerfile-MySQL
+        image: mysql
+        restart: always
+        tty: true
+        environment:
+            - MYSQL_DATABASE=it_boavista
+            - MYSQL_USER=root
+            - MYSQL_ROOT_PASSWORD=password
+        ports:
+            - "3306:3306"
+            - "33060:33060"
+        networks:
+            - overlay
