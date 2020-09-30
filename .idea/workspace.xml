@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3a2a10a-c92e-431f-aa6e-076414a7c796" name="Default Changelist" comment="">
+    <list default="true" id="a3a2a10a-c92e-431f-aa6e-076414a7c796" name="Default Changelist" comment="Implementações.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel01/app/Http/Controllers/CadastroPessoaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel01/app/Http/Controllers/CadastroPessoaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel01/public/assets/js/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/laravel01/public/assets/js/general.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel01/resources/views/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel01/resources/views/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel01/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel01/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/laravel01/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,12 +185,24 @@
       <option name="presentableId" value="Default" />
       <updated>1601423620061</updated>
       <workItem from="1601423621242" duration="11657000" />
-      <workItem from="1601435460769" duration="3915000" />
+      <workItem from="1601435460769" duration="6488000" />
     </task>
+    <task id="LOCAL-00001" summary="Implementações.">
+      <created>1601467565402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601467565402</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementações." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementações." />
   </component>
   <component name="WindowStateProjectService">
     <state x="732" y="245" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601428825507">
@@ -202,9 +213,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601428684949" />
+    <state x="585" y="1" width="1128" height="1037" key="CommitChangelistDialog2" timestamp="1601469877665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="1" width="1128" height="1037" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601469877665" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1601430852379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601430852379" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1601467610985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601467610985" />
   </component>
 </project>

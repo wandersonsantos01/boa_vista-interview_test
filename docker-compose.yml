@@ -4,6 +4,7 @@ networks:
         driver: bridge
 services:
     laravel01:
+        container_name: laravel
         build:
             context: ./Dockerfiles
             dockerfile: Dockerfile-Laravel01

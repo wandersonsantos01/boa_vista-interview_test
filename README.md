@@ -8,19 +8,24 @@
 - Docker 19+
 - Google Chrome 85+
 
-## Preparando ambiente
+## Iniciando ambiente
 
 1- Após baixar o projeto no repositório do GitHub, acessar a pasta e executar o comando:
-```shell script
+```shell
 $ docker-compose up -d
 ```
 
-4- Será necessário executar a migration das tabelas, para isso, execute o comando:
-```shell script
-$ docker exec -it boa_vista_laravel01_1 php artisan make:migration create_pessoas_table
+2- Acesse a pasta do projeto e execute o composer:
+```shell
+$ composer update
 ```
 
-3- Após iniciar os containers (Laravel e MySQL), basta acessar a página http://localhost:8080
+3- Será necessário executar a migration das tabelas, para isso, execute o comando:
+```shell
+$ docker exec -it laravel php artisan migrate
+```
+
+4- Após iniciar os containers (Laravel e MySQL), basta acessar a página http://localhost:8080
 
 #### Acesso ao Banco de Dados
 
